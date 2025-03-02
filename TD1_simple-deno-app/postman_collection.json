@@ -1,0 +1,158 @@
+{
+  "info": {
+    "_postman_id": "YOUR_COLLECTION_ID",
+    "name": "API Bibliothèque Deno",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Livres",
+      "item": [
+        {
+          "name": "Récupérer tous les livres",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "http://localhost:8000/books",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8000",
+              "path": [
+                "books"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Récupérer un livre par ID",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "http://localhost:8000/books/{{bookId}}",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8000",
+              "path": [
+                "books",
+                "{{bookId}}"
+              ],
+              "variable": [
+                {
+                  "key": "bookId",
+                  "value": "1",
+                  "description": "ID du livre à récupérer"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Créer un nouveau livre",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"titre\": \"Nouveau Livre\",\n    \"auteur\": \"Nouvel Auteur\",\n    \"isbn\": \"123-456-789\",\n    \"datePublication\": \"2024-01-01\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8000/books",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8000",
+              "path": [
+                "books"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Mettre à jour un livre",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"id\": {{bookId}},\n    \"titre\": \"Titre Mis à Jour\",\n    \"auteur\": \"Auteur Mis à Jour\",\n    \"isbn\": \"987-654-321\",\n    \"datePublication\": \"2024-02-15\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8000/books/{{bookId}}",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8000",
+              "path": [
+                "books",
+                "{{bookId}}"
+              ],
+              "variable": [
+                {
+                  "key": "bookId",
+                  "value": "1",
+                  "description": "ID du livre à mettre à jour"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Supprimer un livre",
+          "request": {
+            "method": "DELETE",
+            "url": {
+              "raw": "http://localhost:8000/books/{{bookId}}",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8000",
+              "path": [
+                "books",
+                "{{bookId}}"
+              ],
+              "variable": [
+                {
+                  "key": "bookId",
+                  "value": "1",
+                  "description": "ID du livre à supprimer"
+                }
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    }
+  ]
+}

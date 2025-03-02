@@ -1,0 +1,16 @@
+{
+  "name": "m1-web-fullstack_cours",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "marp": "marp Cours/*.md --theme assets/theme_graph-paper.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/giraud-d-edu/M1-Web-Fullstack_Cours.git"
+  },
+  "dependencies": {
+    "@marp-team/marp-cli": "^4.1.2"
+  },
+  "private": true
+}
