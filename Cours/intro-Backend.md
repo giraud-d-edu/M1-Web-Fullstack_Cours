@@ -215,7 +215,7 @@ Familles de codes HTTP importantes
   - **Vue (View)** : Présente les données à l'utilisateur (dans un contexte Backend, la "vue" pourrait être la réponse JSON de l'API plutôt qu'une page HTML).
   - **Contrôleur (Controller)** : Reçoit les requêtes de l'utilisateur, interagit avec le modèle et choisit la vue à afficher (ou la réponse API à renvoyer).
 
-![illustration width:300px](https://media.geeksforgeeks.org/wp-content/uploads/20220224160807/Model1.png)
+![illustration width:500px](https://media.geeksforgeeks.org/wp-content/uploads/20220224160807/Model1.png)
 
 ---
 

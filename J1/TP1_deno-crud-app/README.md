@@ -12,11 +12,11 @@ Pour un site internet il faut une API qui référence les Films et Acteurs.
 3.  **Architecture MVC :** Structurer le code en MVC (Controllers, Services, Repositories).  Respecter strictement le rôle de chaque couche.
 4.  **Codes HTTP :**  Choisir et utiliser des codes HTTP pertinents pour chaque endpoint. Justifier brièvement vos choix (commentaires dans le code).
 
-Faites des petits commit réguliers. Vous pouvez faire des PR au sein de votre binôme.
+Faites des petits commits réguliers. Vous pouvez faire des PR au sein de votre binôme.
 
 ## Bonus :
 
-*   **Middleware :** Implémenter un middleware (ex: logging, exceptions).
+*   **Middleware :** Implémenter un middleware (ex: logging, [exceptions](https://deno.land/x/oak@v17.1.4#error-handling)).
 *   **RxJS :** Utiliser RxJs à la place des promesses
 *   **Pull Requests (PR) :** Travailler en binômes avec workflow de Pull Requests.
 *   **Tests API :** Écrire des tests d'API basiques.

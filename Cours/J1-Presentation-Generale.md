@@ -166,6 +166,8 @@ Le syndrome de l'imposteur touche 72% des développeurs Full Stack, qui se sente
 - Svelte
 - GitHub
 
+---
+
 ## Les 101 de ce module
 
 - Introduction sur l'UX/UI [Lien HTML](intro-UX-UI.html)
@@ -184,22 +186,22 @@ Le syndrome de l'imposteur touche 72% des développeurs Full Stack, qui se sente
 - lundi 3, mardi 4 et jeudi 6 mars
 - lundi 24 (matin), mardi 25 et jeudi 27 mars
 - mardi 15 avril
-- lundi 8 mai
-  - *[TU] mardi 6*
-- lundi 16 et mercredi 18 mai
-  - *[TU] mardi 17 et jeudi 18 mai*
-  - *[TU] mardi 24 et jeudi 25 mai*
+- lundi 5 mai
+  - *[TU] mardi 6 mai*
+- lundi 16 et mercredi 18 juin
+  - *[TU] mardi 17 et jeudi 19 juin*
+  - *[TU] mardi 24 et jeudi 25 juin*
 
 ---
 
 ### Cette semaine (J1, J2, J3) : du backend
 
-- J1 : Lundi 3 :
+- J1 : Lundi 3 mars
   - Présentation Générale
   - TD1 : Application simple avec Deno
   - Présentation "Introduction au backend"
   - TP1 : Development d'une API simple
-- J2 : Mardi 4
+- J2 : Mardi 4 mars
   - REX sur le lundi
   - Presentation "API, DDD, Contrat d'interface"
   - TD2 : Implémentation de MongoDB
@@ -222,7 +224,7 @@ Le syndrome de l'imposteur touche 72% des développeurs Full Stack, qui se sente
 ## Projet de fin de module
 
 
-> Encore en cours de réflexion de mon coté.
+Encore en cours de réflexion de mon coté.
 
 > Vous pouvez me fournir des idées de projets
 
@@ -236,7 +238,7 @@ Le syndrome de l'imposteur touche 72% des développeurs Full Stack, qui se sente
 - Soutenance sur le backend en groupe
 - Présentation individuelle (à faire une fois sur le module)
 - Evaluation individuelle (vers la fin du module)
-- Projet de module en groupe avec soutenance intermédiaire et finale
+- Projet de module en groupe avec soutenances intermédiaire et finale
 
 ---
 
