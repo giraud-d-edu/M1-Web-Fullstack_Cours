@@ -10,6 +10,7 @@ export interface BookDBO {
 }
 
 export function fromBookDboToBook(dbo: BookDBO): Book {
+    // FIXME : hard copy include _id
     return {
         ...dbo,
         id: dbo._id.toString()
@@ -17,6 +18,7 @@ export function fromBookDboToBook(dbo: BookDBO): Book {
 }
 
 export function fromBookToBookDbo(book: Book): BookDBO {
+    // FIXME : hard copy include id
     return {
         ...book,
         _id: new ObjectId(book.id)
