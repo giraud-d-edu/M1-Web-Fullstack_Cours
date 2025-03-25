@@ -282,7 +282,7 @@ src/
 └── routes/            # Pages et layouts
 ```
 
-2. **Créez un service API** dans `src/lib/services/api.js`:
+2. **Créez un service API** dans `src/lib/services/api.ts`:
 
 3. **Créez un store pour les produits** dans `src/lib/stores/produits.ts`:
 
@@ -342,10 +342,7 @@ src/
     - Définissez une palette de couleurs et un système typographique cohérent
     - Implémentez des composants accessibles (ARIA, contraste suffisant, etc.)
 
-* Système de gestion d'erreur
-    - Créez un système centralisé de gestion d'erreur
-    - Implémentez des pages d'erreur personnalisées (404, 500, etc.)
-    - Mettez en place une journalisation côté client
+* Implémentez des pages d'erreur personnalisées (404, 500, etc.)
 
 * Upload d'images
 
@@ -363,3 +360,7 @@ src/
     - Optimisation des images
     - Minification des assets
     - ...
+
+* Gestion des erreurs (coté back)
+  - Créez un système centralisé de gestion d'erreur (middleware, exceptions, ...)
+  - Mettez en place une journalisation côté serveur
